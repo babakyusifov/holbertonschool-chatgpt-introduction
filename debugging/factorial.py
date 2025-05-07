@@ -7,5 +7,6 @@ def factorial(n):
         result *= n
         n -= 1  # Decrement n to eventually break the loop
     return result
-    f = factorial(int(sys.argv[1]))
-    print(f)
+
+f = factorial(int(sys.argv[1]))
+print(f)
